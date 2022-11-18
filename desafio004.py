@@ -1,0 +1,11 @@
+yzz = input('digite algo: ')
+
+print('INFORMAÇÕES sobre o:', yzz)
+print('Qual o seu tipo primitivo?', type(yzz))
+print('Ele é númerico?', yzz.isnumeric())
+print('Ele é uma letra?', yzz.isalpha())
+print('Ele é alpha-númerico?', yzz.isalnum())
+print('Ele está somente com letras maiúsculas?', yzz.isupper())
+print('Ele está somente com letras minúsculas?', yzz.islower())
+print ('É somente espaço em branco? ', yzz.isspace())
+print ('As letras estao capitalizada? ', yzz.istitle())
